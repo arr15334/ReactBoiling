@@ -1,6 +1,6 @@
 import React from 'react';
 import AppRouter from './AppRouter.jsx';
-import App from './App.jsx';
+// import App from './App.jsx';
 
 export default class Main extends React.Component {
     constructor(props) {
@@ -14,7 +14,6 @@ export default class Main extends React.Component {
       return (
         <div>
           <AppRouter/>
-          <App />
         </div>
       )
     }

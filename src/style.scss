@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Allerta+Stencil");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 
 .header {
-    background-color: black;
+    background-color: #d3dce1e6;
     h1 {
         text-align: center;
         font-family: 'Allerta Stencil';
-        color: yellow;
+        color: royalblue;
     }
 }
 
@@ -14,4 +15,20 @@
     height: 200px;
     width: 200px;
     margin: 0 auto;
+}
+
+.button-container {
+    text-align: center;
+        button {
+        background-color: royalblue;
+        color: azure;
+        font-family: 'Slabo 27px';
+        font-size: 2em;
+        border: none;
+    }
+}
+
+p {
+    font-family: 'Slabo 27px';
+    font-size: 27px;
 }
