@@ -1,2 +1,1 @@
-# ReactBoiling
-React boilerplate application
+# react-calculator
